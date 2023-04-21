@@ -1,0 +1,38 @@
+{
+  "name": "frontend-basics-course",
+  "version": "0.1.0",
+  "description": "Frontend basics course",
+  "scripts": {
+    "test": "jest || true",
+    "lint": "eslint **/*.js",
+    "test:ci": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSilve/Frontend-basics-course"
+  },
+  "author": "Ivan Serebryakov",
+  "homepage": "https://github.com/IvanSilve/Frontend-basics-course#readme",
+  "devDependencies": {
+    "css-validator": "^0.11.0",
+    "eslint": "^8.39.0",
+    "html-validator": "^6.0.1",
+    "jest": "^29.5.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "test",
+    "lint"
+  ],
+  "eslintIgnore": [
+    "**/test/**/*",
+    "/__tests__/**/*",
+    "/node_modules"
+  ],
+  "jest": {
+    "moduleNameMapper": {
+      "~utils": "<rootDir>/test-utils.js"
+    }
+  },
+  "dependencies": {}
+}
