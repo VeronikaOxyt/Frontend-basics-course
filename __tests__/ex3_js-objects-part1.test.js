@@ -46,7 +46,7 @@ describe('Ex3. JS Objects Part 1', () => {
 
     task('06', code => {
         const obj = {a: 1, b: {c: 0}, e: {f: [{g: 1}]}};
-        const objCopy = code(obj);
+        const objCopy = code?.(obj);
 
         it('should create object with new references for non-primitive values', () => {
             expect(obj === objCopy).toBeFalsy();
