@@ -13,6 +13,7 @@ describe('Ex2. JS Basics Part 2', () => {
 
         it('should return undefined, otherwise', () => {
             expect(code()).toBeUndefined();
+            expect(code(NaN)).toBeUndefined();
             expect(code(null)).toBeUndefined();
             expect(code(undefined)).toBeUndefined();
             expect(code(function() {})).toBeUndefined();
