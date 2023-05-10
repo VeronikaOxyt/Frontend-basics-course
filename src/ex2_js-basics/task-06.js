@@ -18,6 +18,7 @@ function simpleComposite(n) {
          answer = `Число ${n} - простое число`;
         }
     }
+    
     return answer;
 }
 module.exports = simpleComposite
