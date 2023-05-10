@@ -15,8 +15,7 @@ function simpleComposite(n) {
             }
         })
         if (indicator) {
-         answer = `Число ${n} - простое число`;
-        }
+         answer = `Число ${n} - простое число`; }
     }
     return answer;
 }
