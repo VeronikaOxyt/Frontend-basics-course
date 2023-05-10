@@ -5,6 +5,7 @@ function maximum(array) {
            maxValue = value;
        }
    })
+   
    return maxValue;
 }
 
