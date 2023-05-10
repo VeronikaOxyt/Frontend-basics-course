@@ -2,6 +2,7 @@ function EvenUneven(array) {
     let EvenElem = 0;
     let UnevenElem = 0;
     let nullElem = 0;
+    
     array.forEach(value => {
         if (typeof(value) === 'number') {
             if(value !== 0 && value % 2 === 0) {
