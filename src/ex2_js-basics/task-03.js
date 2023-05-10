@@ -9,8 +9,7 @@ function EvenUneven(array) {
             } else if(value % 2 === 1) {
                 UnevenElem++;
             } else if(value === 0) {
-                nullElem++;
-            }
+                nullElem++; }
         }
     })
     let list = [EvenElem, UnevenElem, nullElem];
