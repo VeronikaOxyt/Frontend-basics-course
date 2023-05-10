@@ -7,6 +7,6 @@ function compareArr(array) {
                 indicator = false; }
         }
     })
-    return indicator;
+    return indicator; 
 }
 module.exports = compareArr
