@@ -23,13 +23,12 @@ describe('Ex2. JS Basics Part 2', () => {
     });
 
     task('02', code => {
-        beforeAll(() => spyOn(console, 'log'));
-
+        const spy = jest.spyOn(console, 'log')
         const arr = [1, 2];
 
         it(`should be called 3 times for ${JSON.stringify(arr)}`, () => {
             code(arr);
-            expect(console.log.calls.count()).toBe(3);
+            expect(spy.mock.calls.length).toBe(3);
         });
     });
 
