@@ -1,12 +1,6 @@
 function compareArr(array) {
-    let indicator = true;
-    array.forEach((value, index, array) => {
-        console.log(array[index]);
-        if (index !== array.length-1) {
-            if(array[index] !== array[index+1]) {
-                indicator = false; }
-        }
-    })
-    return indicator; 
-}
+    return array.length && array.every((value, index) => 
+        value === array[0]);
+  }
+  
 module.exports = compareArr

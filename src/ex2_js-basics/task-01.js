@@ -8,5 +8,4 @@ function getType(value) {
     } 
     return undefined;
 }
-
 module.exports = getType
