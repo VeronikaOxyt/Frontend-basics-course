@@ -1,10 +1,13 @@
 function upperRegisterAll(str) {
-    let string = str[0].toUpperCase() + str.slice(1);
-for (let i = 0; i < string.length; i++) {
-    if(string[i] === " ") {
-        string = string.slice(0, i+1) + string[i+1].toUpperCase() + string.slice(i+2);
-    }
-}
-return string;
+    let arr = str.split(' ');
+    let arrBox = [];
+    arr.forEach((value, index) => { 
+        let valueBox = value;
+        valueBox = value[0].toUpperCase() + value.slice(1);
+        arrBox[index] = valueBox; });
+    let string = '';
+    arrBox.map(item => {
+        string += item + ' '; });
+return string.trim();
 }
 module.exports = upperRegisterAll
