@@ -1,4 +1,4 @@
 function getRandomNumb() {
-    return Math.floor(Math.random() * (100 - 0) + 0);
+    return Math.floor(Math.random() * 100);
 }
 module.exports = getRandomNumb
