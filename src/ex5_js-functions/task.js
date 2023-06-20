@@ -1,58 +1,56 @@
-calculate = {
+let Calculator = {
     result : 0,
     getResult() {
         return console.log(this.result);
     },
     reset() {
-        Object.defineProperty(calculate, 'result', {
+        Object.defineProperty(Calculator, 'result', {
             value: 0 
           });
-          return this.result;
+          return this;
     },
     add(val) {
         if(val === undefined){
-            return this.result;
+            return this;
         }
         let resultBox = this.result;
-        Object.defineProperty(calculate, 'result', {
+        Object.defineProperty(Calculator, 'result', {
             value: +resultBox + val 
           });
-          return this.result;
+          return this;
     },
     subtract(val) {
         if(val === undefined){
-            return this.result;
+            return this;
         }
         let resultBox = this.result;
-        console.log(resultBox);
-        Object.defineProperty(calculate, 'result', {
+        Object.defineProperty(Calculator, 'result', {
             value: +resultBox - val
           });
-          return this.result;
+          return this;
     },
     divide(val) {
         if(val === undefined){
-            return this.result;
+            return this;
         }
         let resultBox = this.result;
-        console.log(resultBox);
-        Object.defineProperty(calculate, 'result', {
+        Object.defineProperty(Calculator, 'result', {
             value: +resultBox / val
           });
-          return this.result;
+          return this;
     },
     multiply(val) {
         if(val === undefined){
-            return this.result;
+            return this;
         }
         let resultBox = this.result;
-        console.log(resultBox);
-        Object.defineProperty(calculate, 'result', {
+        Object.defineProperty(Calculator, 'result', {
             value: +resultBox * val
           });
-          return this.result;
+          return this;
     }
   };
+  
   module.exports = getResult
   module.exports = reset
   module.exports = add
