@@ -1,8 +1,8 @@
-function getShifter(str) {
-    let string = '';
-for (let i = str.length-1; i >= 0; i--) {
-     string += str[i];
-}
+function reverseString(str) {
+    let arr = str.split('');
+    arr.reverse();
+    console.log(arr);
+    let string = arr.join('');
 return string;
 }
-module.exports = getShifter
+module.exports = reverseString
