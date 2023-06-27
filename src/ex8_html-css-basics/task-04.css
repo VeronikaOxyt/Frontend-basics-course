@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Lexend Peta";
+    src: local("Lexend Peta Regular"),
+      local("LexendPeta-Regular"),
+      url("Lexend_Peta-webfont.woff2") format("woff2"),
+      url("Lexend_Peta-webfont.woff") format("woff"),
+      url("Lexend_Peta-webfont.svg") format("svg");
+    font-weight: normal;
+  }
+
+  @font-face {
+	font-family: 'Crimson Text';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Crimson Text'),
+		url('/fonts/CrimsonText-Italic.woff2') format('woff2'), 
+		url('/fonts/CrimsonText-Italic.woff') format('woff'),
+		url('/fonts/CrimsonText-Italic.ttf') format('ttf'),
+		url('/fonts/CrimsonText-Italic.eot') format('eot');
+}
+
+.container1  {
+    width: 100%;
+    background-color: #96ca91;
+    font-family: "Lexend Peta", sans-serif;
+}
+.container2 {
+    width: 50%;
+    height: 50%;
+    background-color: #91bdca;
+    font-family: 'Crimson Text';
+	font-style: italic;
+}
+.container3 {
+    width: 100%;
+    background-color:  rgb(219, 146, 189);
+    font-family: "Lexend Peta", sans-serif;
+}
+img {
+    height: 200cap;
+    width: 350pt;
+}
