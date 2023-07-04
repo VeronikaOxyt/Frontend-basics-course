@@ -1,0 +1,63 @@
+.b1 {
+    display: inline-block;
+    position: relative;
+    background-color: #734ed8;
+    width: 300px;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+}
+.b2 {
+    position: absolute;
+    background-color: #d15cff;
+    width: 300px;
+    height: 300px;
+    left: -10px;
+    top: -10px;
+}
+.b3 {
+    position: absolute;
+    background-color: #ff5cf1;
+    width: 300px;
+    height: 300px;
+    left: -20px;
+    top: -20px;;
+}
+.Block2th {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 20px; 
+    left: 50px;
+    background: #4df79a;
+    }
+    .Block2th::before, 
+    .Block2th::after {
+    content: "";
+    position: absolute;
+    }
+    .Block2th::before {
+    top: -10px; 
+    left: -10px;
+    width: 300px;
+    height: 300px;
+    background: #4da1f7;
+    }
+    .Block2th::after {
+    top: -20px; 
+    left: -20px;
+    width: 300px;
+    height: 300px;
+    background: #4dcff7;
+    }
+    .Block3th {
+        display: inline-block;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        left: 60px;
+        background: #eee894;
+        box-shadow: 10px 10px rgb(255, 186, 84),
+                    20px 20px rgb(255, 84, 84);
+        }
