@@ -1,0 +1,49 @@
+* {
+    margin-bottom: 1rem;
+    font-family: Arial;
+   }
+   .radio input[type='radio'] {
+    margin-bottom: 0rem;
+    box-sizing: border-box;
+    appearance: none;
+    border: 1px solid #7e7e7e;
+    outline: 0.5px solid #cccccc;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(rgb(245, 245, 245), rgb(219, 219, 219));
+    border-radius: 50%;
+   }
+    .radio-2 input[type='radio'] {
+    margin-bottom: 0rem;
+    box-sizing: border-box;
+    appearance: none;
+    border: 1px solid #7e7e7e;
+    outline: 0.5px solid #cccccc;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(rgb(245, 245, 245), rgb(219, 219, 219));
+    border-radius: 2px;
+   }
+   input[type='radio']:checked {
+    outline: 1.3px solid #0075FF;
+    border: 3px solid #ffffff;
+    background:#0075FF;
+  }
+  .scrollabletextbox {
+    height:100px;
+    width:300px;
+    font-family: Courier New;
+    font-size: 82%;
+    color:#7e7e7e;
+}
+.title {
+    border: 1px solid #a0a0a0;
+    line-height: 5px;
+    width:200px;
+    font-size: 82%;
+    overflow-y: scroll;
+}
+input:required:invalid {
+	border:2px solid rgb(236, 26, 26);
+  background: linear-gradient(rgb(245, 245, 245), rgb(219, 219, 219));
+}
