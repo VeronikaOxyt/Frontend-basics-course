@@ -1,0 +1,21 @@
+body {
+    padding: 30px;
+  }
+  header {
+    background: lightblue;
+  }
+  section {
+    background: lightgreen;
+    display: grid;
+  }
+  article {
+    background: white;
+    margin: 0 0 1rem 0;
+  }
+  aside {
+    display: grid;
+    background: pink; 
+  }
+  header, article, section, .module {
+    padding: 1rem;
+  }

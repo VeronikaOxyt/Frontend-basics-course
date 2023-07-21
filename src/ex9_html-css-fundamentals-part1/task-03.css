@@ -1,0 +1,101 @@
+body {
+    background-color: #f8f6f6;
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+  }
+  .plat {
+    background:
+    radial-gradient(rgba(97, 96, 96, 0.5),
+        rgba(172, 170, 170, 0));
+    border-radius: 14px;
+    width: 340px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px;
+    border-color:#802222;
+    box-shadow: 1px 1px 1px 1px #797979;
+  }
+  .row {
+    position: absolute;
+    background-color: #e0e0e0;
+    width: 320px;
+    height: 80px;
+    left: 3%;
+    top: 10%;
+    border: 1px;
+    border-color: #bdbcbc;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px #5f5f5f;
+  }
+  .text {
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: expanded;
+    cursor: pointer;
+    text-shadow: -1px -1px #4e4e4e,
+               0 1px 0 #f3f0f0;
+    color: #858585;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  text:hover {
+    color: #6e6e6e;
+  }
+  .bump {
+    position: absolute;
+    background-color: #aaaaaa;
+    bottom: 0px;
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    border-radius: 8px 8px 12px 12px;
+    opacity: 0.1;
+  }
+  .star {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, rgb(185, 185, 185) 0%, rgb(255, 255, 255) 70%, rgb(201, 201, 201) 100%);
+    position: relative;
+  }
+  
+  .star:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    background: linear-gradient(to bottom, rgb(143, 143, 143) 0%, rgb(150, 150, 150) 100%);
+    z-index: 1;
+  }
+  
+  .star,
+  .star:before {
+    -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+  }
+
+    .s1 {
+      position: absolute;
+      top: 35%;
+      left: 14%;
+      transform: scale(1.4);
+    }
+
+    .s2 {
+      position: absolute;
+      top: 35%;
+      left: 80%;
+      transform: scale(1.4);
+    }
