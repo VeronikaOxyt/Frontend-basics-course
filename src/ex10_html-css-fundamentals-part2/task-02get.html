@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task-02.css" />
+    <title>form</title>
+</head>
+<body>
+  <form action="http://httpbin.org/get" method="get">
+    <fieldset>
+        <legend>Personal data</legend>
+        <label>Surname <input type="text" name="Surname"></label><br>
+        <label>First Name <input type="text" name="First Name"></label><br>
+        <label>Middle Name <input type="text" name="Middle Name"></label><br>
+        <div class="radio">
+            <span>You are: </span>
+            <label><input type="radio" name="sex" value="male"> male </label>
+            <label><input type="radio" name="sex" value="female"> female</label>
+          </div>
+          <label>Age <input type="number" min="18" max="101"></label><br>
+          <label>Country of Residence </label><select id="selectID">
+            <option value=”RU”>Russia</option>
+            <option value=”US”>USA</option>
+            <option value=”UK”>UK</option>
+            </select>
+            <div class="radio-2">
+                <span>City</span>
+                <label><input type="radio" name="city" value="Ryazan">Ryazan </label>
+                <label><input type="radio" name="city" value="Moscow">Moscow</label>
+              </div>
+              <form method="post" enctype="multipart/form-data">
+                <label class="input-file">Photography  
+                       <input type="file" name="file">
+                        <span class="input-file-btn"></span>           
+                 </label>
+            </form>
+            <hr>
+            <label>Title<div class="title">
+                <p><b>Technologies</b></p>
+                <p style="margin-left: 10px;">Web Master</p>
+                <p style="margin-left: 10px;">Database Administrator</p>
+                <p style="margin-left: 10px;">Computer-aided design</p>
+                <p><b>Finance</b></p>
+                <p style="margin-left: 10px;">Economic Planning</p>
+                <p style="margin-left: 10px;">Management accounting</p>
+                <p style="margin-left: 10px;">Budgeting and planning</p>
+              </div></label>
+              <label>Salary <input type="range" min="0"></label>            
+            <br><textarea class="scrollabletextbox" name="note">Tell us about yourself...</textarea>
+       </fieldset>
+       <fieldset>
+          <legend>Contact information</legend>
+          <label>Site <input type="text" name="Site"></label><br>
+          <label>Email <input type="email" name="Email" required pattern="\S+@[a-z]+.[a-z]+"></label><br>
+          <label>Phone <input type="text" name="Phone"></label><br>
+        </fieldset>
+        <label>Password <input type="password" autofocus required></label><br>
+        <input type="submit"> <input type="reset">
+  </form>
+</body>
+</html>
