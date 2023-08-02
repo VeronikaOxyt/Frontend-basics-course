@@ -1,61 +1,40 @@
 let Calculator = {
     result : 0,
     getResult() {
-        return console.log(this.result);
+        return this.result;
     },
     reset() {
-        Object.defineProperty(Calculator, 'result', {
-            value: 0 
-          });
-          return this;
+        this.result = 0;
+      return this.result;
     },
     add(val) {
         if(val === undefined){
-            return this;
+        return Calculator.add;
         }
-        let resultBox = this.result;
-        Object.defineProperty(Calculator, 'result', {
-            value: +resultBox + val 
-          });
-          return this;
+        Calculator.result += val; 
+        return Calculator.add;
     },
     subtract(val) {
         if(val === undefined){
-            return this;
+            return Calculator.subtract;
         }
-        let resultBox = this.result;
-        Object.defineProperty(Calculator, 'result', {
-            value: +resultBox - val
-          });
-          return this;
+        Calculator.result -= val;
+        return Calculator.subtract;
     },
     divide(val) {
         if(val === undefined){
-            return this;
+            return Calculator.divide;
         }
-        let resultBox = this.result;
-        Object.defineProperty(Calculator, 'result', {
-            value: +resultBox / val
-          });
-          return this;
+        Calculator.result /= val;
+        return Calculator.divide;
     },
     multiply(val) {
         if(val === undefined){
-            return this;
+            return Calculator.multiply;
         }
-        let resultBox = this.result;
-        Object.defineProperty(Calculator, 'result', {
-            value: +resultBox * val
-          });
-          return this;
+        Calculator.result *= val;
+        return Calculator.multiply;
     }
   };
-  
-  module.exports = getResult
-  module.exports = reset
-  module.exports = add
-  module.exports = subtract
-  module.exports = divide
-  module.exports = multiply
-  
 
+  module.exports = Calculator
