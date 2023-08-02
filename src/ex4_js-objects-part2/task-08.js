@@ -1,16 +1,10 @@
 function lowerCamelCase(str) {
-    let string = str.toLowerCase();
-    let arr = string.split(' ');
+    let arr = str.toLowerCase().split(' ');
     let arrBox = [];
-    arr.forEach((value, index) => { 
-    let valueBox = value;
-    if (index > 0) {
-        valueBox = value[0].toUpperCase() + value.slice(1); }
-    else valueBox = value[0].toLowerCase() + value.slice(1);
-    arrBox[index] = valueBox; });
-    string = '';
-    arrBox.map(item => {
-        string += item; });
-return string;
+    arr.map((item, index) => {
+         arrBox[index] = item[0].toUpperCase() + item.slice(1)
+    });
+    arrBox[0] = arrBox[0].toLowerCase();
+    return arrBox.join('');
 }
 module.exports = lowerCamelCase
