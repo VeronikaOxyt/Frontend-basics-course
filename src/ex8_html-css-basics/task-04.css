@@ -19,19 +19,19 @@
 		url('/fonts/CrimsonText-Italic.eot') format('eot');
 }
 
-.container1  {
+.Ordered_list  {
     width: 100%;
     background-color: #96ca91;
     font-family: "Lexend Peta", sans-serif;
 }
-.container2 {
+.Unordered_list {
     width: 50%;
     height: 50%;
     background-color: #91bdca;
     font-family: 'Crimson Text';
 	font-style: italic;
 }
-.container3 {
+.Description_list {
     width: 100%;
     background-color:  rgb(219, 146, 189);
     font-family: "Lexend Peta", sans-serif;
