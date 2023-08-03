@@ -1,27 +1,10 @@
-function sliceArr(array, begin, end) {
+function sliceArr(array, begin = 0, end = array.length) {
     let arr = [];
-    if (begin !== undefined && end !== undefined) {
-        array.forEach((item, index) => {
-            if (index >= +array.length * (begin < 0) + begin &&
-                 index < +array.length * (end < 0) + end) {
-                arr.push(item); }
-        })
-    }
-    if (begin !== undefined && end === undefined) {
-        array.forEach((item, index) => {
-            if (index >= array.length * (begin < 0) + begin) {
-                arr.push(item); }
-        })
-    }
-    if (begin === undefined && end === undefined) {
-        arr = array;
-    }
-    if (begin === undefined && end !== undefined) {
-        array.forEach((item, index) => {
-       if (index < +array.length * (end < 0) + end) {
-           arr.push(item); }
-   })
-    }
+    array.forEach((item, index) => {
+        if (index >= +array.length * (begin < 0) + Number(begin) &&
+                index < +array.length * (end < 0) + Number(end)) {
+            arr.push(item); }
+    })
    return arr;
 } 
 module.exports = sliceArr
