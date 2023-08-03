@@ -3,18 +3,19 @@ body {
         margin-right: auto;
         width: 5em
     }
-div {
-    width: 200px;
+.purple {
+    width: 130px;
+    height: 132px;
     padding: 10px;
     border: 25px solid #c59ae9;
     margin: 0;
 }
-div {
-    width: 160px;
-    height: 160px;
+.fuchsia {
+    width: 200px;
+    height: 200px;
     outline: 20px solid #c46aa6;
 }
-div {
+.shadow {
     width: 200px;
     height: 200px;
     box-shadow: 6px 2px 42px 6px rgb(224, 119, 119), 
