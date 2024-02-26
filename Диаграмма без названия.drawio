@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T15:11:53.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="k0owSImDROxQzWuU-B05" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T15:13:27.044Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="q7ZKr2DVTK4iPcL2gkgY" version="21.7.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1767" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1767" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
             <mxPoint x="1160" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yJWZmImQaWcxnR1m6JDB-19" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;Доступ к доске мероприятий (с фильтром по локациям и мероприятиям, на которые записался)&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacing=12;" vertex="1" parent="1">
+        <mxCell id="yJWZmImQaWcxnR1m6JDB-19" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;Доступ к доске мероприятий (с фильтрами по локациям и мероприятиям, на которые записался)&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacing=12;" vertex="1" parent="1">
           <mxGeometry x="760" y="340" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yJWZmImQaWcxnR1m6JDB-21" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;Доступ к списку участников, карточке участника&lt;br&gt;Возможность изменить список&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#fad9d5;strokeColor=#ae4132;spacing=12;" vertex="1" parent="1">
@@ -78,7 +78,7 @@
           <mxGeometry x="1360" y="340" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yJWZmImQaWcxnR1m6JDB-31" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;Возможность редактирования&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#fad9d5;strokeColor=#ae4132;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="50" width="160" height="60" as="geometry" />
+          <mxGeometry x="1080" y="40" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
