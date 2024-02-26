@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T15:05:48.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6oObDZjHQTetS8nHZKeF" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T15:08:31.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="eHoPWRKqte-ifvY7nlkt" version="21.7.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1843" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1767" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
             <mxPoint x="840" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yJWZmImQaWcxnR1m6JDB-10" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;Создание мероприятия&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#fad9d5;strokeColor=#ae4132;spacing=12;" vertex="1" parent="1">
+        <mxCell id="yJWZmImQaWcxnR1m6JDB-10" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;Создание мероприятия (время, даты, место, снаряжение)&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#fad9d5;strokeColor=#ae4132;spacing=12;" vertex="1" parent="1">
           <mxGeometry x="640" y="40" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yJWZmImQaWcxnR1m6JDB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#647687;strokeColor=#314354;" edge="1" parent="1" source="yJWZmImQaWcxnR1m6JDB-15" target="yJWZmImQaWcxnR1m6JDB-23">
