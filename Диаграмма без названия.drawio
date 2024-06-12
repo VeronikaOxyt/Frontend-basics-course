@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T11:33:53.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vnP_gFGHJMgHdJRd02M0" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T12:02:24.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FZ6le8L5T72_GKbk3TbI" version="24.2.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2580" dy="1512" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2860" dy="1802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,14 +187,201 @@
         <mxCell id="VrphJJaBiUEB5D_WwFLY-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3081.5" y="773" width="364" height="219" as="geometry" />
         </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-3" target="VrphJJaBiUEB5D_WwFLY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VrphJJaBiUEB5D_WwFLY-4" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;На форме ввода есть строки такой подгрузки?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3118.5" y="846" width="310" height="60" as="geometry" />
+          <mxGeometry x="3114" y="844" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-6" target="VrphJJaBiUEB5D_WwFLY-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VrphJJaBiUEB5D_WwFLY-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2386" y="1096" width="382" height="106" as="geometry" />
+          <mxGeometry x="2384" y="1045.5" width="382" height="106" as="geometry" />
         </mxCell>
         <mxCell id="VrphJJaBiUEB5D_WwFLY-9" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Система делает выборку строк по заданному алгоритму&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2394" y="1119" width="360" height="60" as="geometry" />
+          <mxGeometry x="2392" y="1068.5" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-10" target="VrphJJaBiUEB5D_WwFLY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-10" target="VrphJJaBiUEB5D_WwFLY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-10" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3692" y="950" width="591" height="297" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-11" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Система выводит информационное окно с текстом: &quot;При обновлении все изменения будут потеряны&quot; и выбором действия да/отменить?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3832" y="1059" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2268" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2893.304273522419" y="1449.869581139606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-13" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2393" y="1223" width="364" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-14" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;В выборке есть строки?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2425" y="1270.5" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-16" target="VrphJJaBiUEB5D_WwFLY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-16" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Подгружает строки на форму ввода&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2714" y="1451" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-17" target="VrphJJaBiUEB5D_WwFLY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-17" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Выводит модальное окно, что строки подгрузились&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2714" y="1580" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-18" target="VrphJJaBiUEB5D_WwFLY-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3160" y="1792" />
+              <mxPoint x="3160" y="1883" />
+              <mxPoint x="3159" y="1883" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-18" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2709.5" y="1715" width="364" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-19" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Это подгрузка авто?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2741.5" y="1762.5" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-20" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Вызывает контроль на сданные отчеты&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2982" y="1903" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-22" target="VrphJJaBiUEB5D_WwFLY-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2264" y="2178" />
+              <mxPoint x="3266" y="2178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-22" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Система показывает информационное окно с текстом:&quot;данные для импорта не найдены&quot;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2086" y="1451" width="355" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-27" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Конец&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3081.5" y="2262" width="368" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-28" target="VrphJJaBiUEB5D_WwFLY-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Информационное окно закрывается&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3401" y="1339" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-29" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Действий не происходит&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3401" y="1530" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-33" target="VrphJJaBiUEB5D_WwFLY-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-33" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Подгружает строки на форму ввода&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4237.5" y="1530" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-35" target="VrphJJaBiUEB5D_WwFLY-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-35" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Выводит модальное окно, что строки подгрузились&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4237.5" y="1659" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-37" target="VrphJJaBiUEB5D_WwFLY-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4683.5" y="1871" />
+              <mxPoint x="4683.5" y="1962" />
+              <mxPoint x="4682.5" y="1962" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-37" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4233" y="1794" width="364" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-38" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Это подгрузка авто?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4265" y="1841.5" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="VrphJJaBiUEB5D_WwFLY-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4414" y="2111" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="4548" y="2111" />
+              <mxPoint x="4548" y="2178" />
+              <mxPoint x="3266" y="2178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-39" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Вызывает контроль на сданные отчеты&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4505.5" y="1982" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-40" target="VrphJJaBiUEB5D_WwFLY-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4239" y="1376" width="352" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-41" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Система делает выборку строк по заданному алгоритму&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4248" y="1401" width="334" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrphJJaBiUEB5D_WwFLY-42" target="VrphJJaBiUEB5D_WwFLY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-42" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Система удаляет строки такой подгрузки с формы ввода&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4239" y="1223" width="355" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-48" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3159" y="2080" as="sourcePoint" />
+            <mxPoint x="3158.83" y="1993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-56" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2892" y="2079" as="sourcePoint" />
+            <mxPoint x="2890.94" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-57" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3160" y="2079" as="sourcePoint" />
+            <mxPoint x="2892" y="2079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-59" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3023" y="2178" as="sourcePoint" />
+            <mxPoint x="3023" y="2079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-60" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4414" y="2110" as="sourcePoint" />
+            <mxPoint x="4414.44" y="1949" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4546" y="2111" as="sourcePoint" />
+            <mxPoint x="4682" y="2111" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4614" y="2111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrphJJaBiUEB5D_WwFLY-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4682" y="2111" as="sourcePoint" />
+            <mxPoint x="4682.44" y="2072" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
