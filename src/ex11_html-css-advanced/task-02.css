@@ -1,0 +1,66 @@
+main {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+h1 { 
+    text-align: center 
+}
+
+div {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 20rem;
+    margin: 0 auto;
+  }
+  
+  input {
+    border: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    outline: none;  
+  }
+  input[type="text"] {
+    border-bottom: 0.15rem solid #bdbdbd;
+  }
+
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+  
+  label {
+    padding-left: 1rem;
+    color: #bdbdbd;
+    transform: translateY(4.8rem);
+    transform-origin: left top;
+    cursor: text;
+    transition: all 0.3s;
+  }
+
+  input[type="text"]:focus,
+input[type="text"]:not(:placeholder-shown) {
+  border-bottom: 0.15rem solid #212121;
+}
+
+
+input[type="text"]:focus ~ label,
+input[type="text"]:not(:placeholder-shown) ~ label {
+  padding: 0;
+  color: #212121;
+  font-weight: bold;
+  transform: translateY(2rem) scale(0.8);
+}

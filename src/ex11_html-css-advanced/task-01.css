@@ -1,0 +1,137 @@
+.preloader {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 15%;
+  }
+  
+  .preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+  }
+  
+  .preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #337ab7;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+  }
+  
+  .preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+  }
+  
+  @keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes preloader-bounce {
+  
+    0%,
+    100% {
+      transform: scale(0);
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
+
+  .ball {
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  cadetblue;
+    animation: move 3s infinite alternate;
+  }
+  @keyframes move {
+    0% {
+      transform: rotate(0deg) translateX(150px) rotate(0deg); 
+    }
+    100% {
+      transform: rotate(-180deg) translateX(180px) rotate(180deg);
+    }
+  }
+  .board_1  {
+    position: fixed;
+    display: inline;
+    width: 70px;
+    height: 15px;
+    background-color:peru;
+    top: 62%;
+    margin-left: 37%;
+  }
+  .board_2 {
+    position: fixed;
+    display: inline;
+    width: 70px;
+    height: 15px;
+    background-color:peru;
+    top: 62%;
+    margin-left: 59%;
+  }
+
+  .kaleidoscope {
+    position: fixed;
+    left: 48%;
+    top: 80%;
+    width: 80px;
+    height: 80px;
+    animation: transformation 6s infinite;
+  }
+  @keyframes transformation {
+    0% {
+      border-radius: 50%;
+      background: linear-gradient(rgb(115, 115, 185), pink);  
+    }
+    14% {
+      border-radius: 0%;
+      background: linear-gradient(rgb(115, 115, 185), pink);
+    }
+    30% {
+      background: linear-gradient(rgb(180, 203, 253), rgb(243, 202, 174));  
+    }
+    46% {
+      transform: rotate(360deg);  
+    }
+    64% {
+      width: 65px;
+      height: 65px;
+      transform: skewX(10deg);
+      transform: skewY(1.07rad);
+    }
+    82% {
+      background: linear-gradient(rgb(180, 236, 253), rgb(222, 243, 174));
+    }
+    100% {
+      border-radius: 50%;
+      background: linear-gradient(rgb(180, 199, 253), rgb(243, 196, 174));
+    }
+  }
