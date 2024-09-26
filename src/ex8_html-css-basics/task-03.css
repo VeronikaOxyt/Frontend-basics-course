@@ -1,0 +1,26 @@
+body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 5em
+    }
+.purple {
+    width: 130px;
+    height: 132px;
+    padding: 10px;
+    border: 25px solid #c59ae9;
+    margin: 0;
+}
+.fuchsia {
+    width: 200px;
+    height: 200px;
+    outline: 20px solid #c46aa6;
+}
+.shadow {
+    width: 200px;
+    height: 200px;
+    box-shadow: 6px 2px 42px 6px rgb(224, 119, 119), 
+                0px 2px 42px 56px rgb(150, 130, 196),
+                6px 2px 42px 6px rgb(201, 138, 226);
+   }
+
+
